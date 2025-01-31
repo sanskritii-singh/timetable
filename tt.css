@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#B9D9EB;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 46%, rgba(227,233,148,1) 100%);
+} 
+
+/* Main Container */
+.container {
+    width: 100%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Titles */
+h1, h2 {
+    color: #333;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table Headers */
+th {
+    /* background: #F0E68C;*/
+    color: white; 
+    padding: 10px;
+    background: #eeaeca;
+}
+
+/* Table Cells */
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+/* Row Hover Effect */
+td:hover {
+    background: #d1ecf1;
+    transition: 0.3s;
+}
+
+/* Alternate Row Color */
+table tr:nth-child(even) {
+    background: grey;
+}
+
+/* Faculty Table Specific Styles */
+.faculty-table th {
+    background: #e3e994;
+}
+
+/* Faculty Table Cell Hover Effect */
+.faculty-table td:hover {
+    background: #d4edda;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+    
+    th, td {
+        padding:8px;
+}
+}
+#container{
+    padding: 10px;
+    margin: 10px;
+
+}
+html {
+    scroll-behavior: smooth;
+} 
+a {
+    text-decoration: none;
+    color: #ff5733;
+    font-weight: bold;
+}
+a:hover {
+    color: #c70039;
+}
